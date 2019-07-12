@@ -1,11 +1,6 @@
-var express = require('express');
+// GET route to /survey page.
 
-var app = express();
 
-app.get("/",function(res,req){
-    res.send("app is working")
-})
-
-app.listen(8080)
+//A default catch-all route that leads to home.html to display the home page.
 
 
